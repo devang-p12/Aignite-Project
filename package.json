@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "framer-motion": "^12.23.11",
+    "locomotive-scroll": "^4.1.4",
+    "react-router-dom": "^7.7.1"
+  }
+}
