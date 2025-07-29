@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'; // Import useNavigate hook
 
 // Define the Socket.IO server URL for connection
 // This should be your Render backend URL in production
-const SOCKET_SERVER_URL = 'http://localhost:3000';
+const SOCKET_SERVER_URL = import.meta.env.VITE_SOCKET_SERVER_URL;
 
 /**
  * Generates a random hexadecimal color code.
