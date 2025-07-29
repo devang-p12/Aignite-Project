@@ -5,7 +5,7 @@ import { AppContext } from '../context/AppContext';
 import { collection, doc, setDoc, onSnapshot, query, orderBy, deleteDoc } from 'firebase/firestore';
 
 // Define the Socket.IO server URL
-const SOCKET_SERVER_URL = 'http://localhost:3000';
+const SOCKET_SERVER_URL = 'https://aignite-project.onrender.com';
 
 // Editor Page Component
 const EditorPage = () => {
